@@ -39,6 +39,9 @@ font: 24pt &quot;Consolas&quot;;</string>
       <layout class="QVBoxLayout" name="verticalLayout_6">
        <item>
         <widget class="QLabel" name="display">
+         <property name="styleSheet">
+          <string notr="true">background-color: rgb(0, 0, 0);</string>
+         </property>
          <property name="text">
           <string>TextLabel</string>
          </property>
