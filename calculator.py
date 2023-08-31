@@ -33,6 +33,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_6 = QtWidgets.QVBoxLayout(self.widget)
         self.verticalLayout_6.setObjectName("verticalLayout_6")
         self.display = QtWidgets.QLabel(self.widget)
+        self.display.setStyleSheet("background-color: rgb(0, 0, 0);")
         self.display.setAlignment(QtCore.Qt.AlignRight|QtCore.Qt.AlignTrailing|QtCore.Qt.AlignVCenter)
         self.display.setObjectName("display")
         self.verticalLayout_6.addWidget(self.display)
@@ -183,4 +184,3 @@ if __name__ == "__main__":
     ui.setupUi(MainWindow)
     MainWindow.show()
     sys.exit(app.exec_())
-
